@@ -5,10 +5,10 @@
 
 public class Calculator {
     private CalcString engine = new CalcString();
-    private UserInterFaceStringHex gui;
+    private UserInterFaceString gui;
 
     public Calculator() {
-        this.gui = new UserInterFaceStringHex(this.engine);
+        this.gui = new UserInterFaceString(this.engine);
     }
 
     public void show() {
